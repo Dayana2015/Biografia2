@@ -1,79 +1,117 @@
-<html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>biografia</title>
+
+
+</html>
 
 <head>
     <title>MI BIOGRAFIA</title>
     <link rel="stylesheet" href="estilos.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="estilos.css">
 </head>
 
-</div>
-<header class="cabeza">
-    <a href="#" class="btn btn-light" role="button" aria-disabled="true">Mi biografía</a>
-    <a href="#" class="btn btn-light" role="button" aria-disabled="true">Home</a>
-
-
-</header>
-
 <body>
-    <div class="contenedor">
+    <header>
+        <h2>
+            MI BIOGRAFÍA
+        </h2>
 
-        <section>
+    </header>
 
-            <h1 class="titulo">July Dayana Sánchez Moreno</h1>
-            <img class="foto" src="imagens/" width="500px" />
-
-        </section>
-
-        <section class="seccion1">
-            <h2 class="biografia">Mi Biografía</h2>
-            <p>
-                Soy una Bogotana de 36 años , realice estudios en diseño de Modas y me especialice en comercializacón de
-                esta, durante 10 años trabaje ne varias empresas del sector de la moda desampañandome como Diseñadora,
-                Coordinadora de diseño y Directora de producción. A lo largo de este tiempo he aprendido muchas
-                habilidades y reforzado otras tantas, en el 2020 debido a la pandemia me quedo sin trabajo formal, lo
-                que me llevo a investigar nuevas formas de conocimiento para buscar empleo, un amigo estudiante de
-                programación me oriento en esta área y fue asi como decidi estudiarlo con otra visión, el año pasado
-                realicé el diplomado de MinTic, al inicio todo era nuevo para mi pero con el tiempo y la practica fui
-                afianzando esa parte de conocimiento.
-            </p>
-            <h2 class="habilidad" >Mis Habilidades</h2>
-            <p>
-                .Habilidades en la parte creativa, ilustración digital e ilustración analoga.
-            </p>
-            <p>
-                .Conocimentos en programación basica frontend y backend
-            </p>
-            <h2 class="hobbies">Mis Hobbies</h2>
-            <p>
-                . Leer
-            <p>
-                . Escuchar PodCast
-            </p>
-            <p>
-                . Diseñar
-            </p>
-            <p>
-                . Programar
-            </p>
+    <nav id="inicio">
+        <ul>
+            <li><a href="#inicio">Home</a></li>
+            <li><a href="#Acerca">Acerca de mi</a></li>
+            <li><a href="#footer">Contacto</a></li>
+        </ul>
+        <form class="formulario">
+            <input type="text" placeholder="Ingresar busqueda" />
+            <button type="button" class="btn btn-outline-info">Buscar</button>
+        </form>
+    </nav>
+    <div class="container">
+        <aside>
             
+            <center><img id="foto" src="imagenes/foto july.jpg " width="200px"></center>
+            <h3>July Dayana Sánchez Moreno</h3>
+            <br>
+            <h3>Diseñadora<h3>
+            <h3>Desarrolladora de software en formación</h3>
 
-        </section>
-    </div>
-    <footer class="piedepagina">
-        
-        <footer>
-            <p>&copy; 2023 July Dayana Sánchez Moreno</p>
-            <p>Email: mosanz02@gmail.com</p>
-            
+        </aside>
+        <div class="container" id="Acerca">
+            <main>
+
+                <h4>Acerca de mi </h4>
+                <article>
+                    Soy una Bogotana de 36 años , realice estudios en diseño de Modas y me especialice en
+                    comercializacón de
+                    esta, durante 10 años trabaje ne varias empresas del sector de la moda desampañandome como
+                    Diseñadora,
+                    Coordinadora de diseño y Directora de producción. A lo largo de este tiempo he aprendido muchas
+                    habilidades y reforzado otras tantas, en el 2020 debido a la pandemia me quedo sin trabajo formal,
+                    lo que me llevo a investigar nuevas formas de conocimiento para buscar empleo, un amigo estudiante de
+                    programación me oriento en esta área y fue asi como decidi estudiarlo con otra visión, el año pasado
+                    realicé el diplomado de MinTic, al inicio todo era nuevo para mi pero con el tiempo y la practica
+                    fui afianzando esa parte de conocimiento.
+                </article>
+                <h4 >Experiencia</h4>
+                <article>
+                    Soporte técnico _
+                    Nettz Colombia S.A.S
+                    Bogotá
+                    2022-06 - Actualmente
+                    Nettz es una empresa tecnologías para facilitar la gestión operacional de empresas que desarrollan o
+                    utilizan soluciones con tecnología de medición a distancia.
+                    Encargada de dar soporte técnico a los clientes de manera eficiente y clara
+                    Dar solución a problemas de conectividad
+                    manejo de plataformas de soporte Kite- Movistar , M2M, TC
+
+                </article>
+                <h4 >Educación</h4>
+                <article>
+                    <p>
+                        • Tecnología en Análisis y desarrollo de software-
+                            SENA- Bogotá, 2022-09 - Actualmente Estudiando 
+                    </p>
+                    <p>
+                        • Diplomado Ministerio de las Tic en programación de Software con profundización en web -
+                            Universidad de Caldas
+                    </p>
+
+                    <p>
+                        • Desarrollo de software: Java - C# - (Frontend -Backend ) manejo de biblioteca bootstrap para
+                            Frontend de software
+                    </p>
+
+
+                </article>
+
+            </main>
+
+
+            </section>
+        </div>
+        <footer id="footer">
             <ul>
-              
-          </footer>
 
-    </footer>
+                <li><a href="acerca.html">&copy; 2023 July Dayana Sánchez Moreno</a></li>
+                <br>
+                <li><a href="home.html">Email: mosanz02@gmail.com</a></li>
+                <br>
+                <li><a href="https://web.whatsapp.com/">WhatsApp: 3017841495</a></li>
+
+
+            </ul>
+
+        </footer>
 </body>
 
 </html>
